@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="obse">
+      <UniqueIdentifier>{94aa795e-944e-41af-a0d6-aa5deea207d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ini">
+      <UniqueIdentifier>{7a1f1fd1-d0c6-4dc2-8200-95c50aab87af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threads">
+      <UniqueIdentifier>{49ea388c-79cb-4fe3-8b79-b4020069957a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MusicPlayer">
+      <UniqueIdentifier>{eb390374-e552-4d70-a2b5-f0134b3f0281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserData">
+      <UniqueIdentifier>{b29c59dc-edf6-4f4f-9539-59ae6d60335b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs">
+      <UniqueIdentifier>{c31c3d88-ab6d-4c91-939d-44f5b2d89df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{58c82235-e7d1-4906-beda-d5afa5d6d026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SafeWrite">
+      <UniqueIdentifier>{cbf20adc-01f9-49a8-b681-0c9d807803f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\obse\obse\GameActorValues.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\GameAPI.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\GameBSExtraData.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\GameData.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\GameExtraData.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\GameForms.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\GameObjects.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\GameTasks.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\GameTypes.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\NiAPI.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\NiNodes.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\NiRTTI.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\Script.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obse\obse\Utilities.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\obse\StdAfx.cpp">
+      <Filter>obse</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands.cpp" />
+    <ClCompile Include="EMC2INISettings.cpp">
+      <Filter>Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="IniData.cpp">
+      <Filter>Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="EMCthread.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeThread.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadRequest.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivePlaylist.cpp">
+      <Filter>UserData</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiplier.cpp">
+      <Filter>UserData</Filter>
+    </ClCompile>
+    <ClCompile Include="PendingPlaylist.cpp">
+      <Filter>UserData</Filter>
+    </ClCompile>
+    <ClCompile Include="Playlist.cpp">
+      <Filter>UserData</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicInstance.cpp">
+      <Filter>MusicPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicPlayer.cpp">
+      <Filter>MusicPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicState.cpp">
+      <Filter>MusicPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicTimes.cpp">
+      <Filter>MusicPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="OBSEInterfaces.cpp">
+      <Filter>Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGameVarsPointer.cpp">
+      <Filter>Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePath.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayMusicFile.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManagement.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeWrite\SafeWrite.cpp">
+      <Filter>SafeWrite</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\obse\obse\GameActorValues.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\GameAPI.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\GameBSExtraData.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\GameData.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\GameExtraData.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\GameForms.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\GameObjects.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\GameTasks.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\GameTypes.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\NiAPI.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\NiNodes.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\NiRTTI.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\ParamInfos.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\PluginAPI.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\Script.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\obse\Utilities.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obse\StdAfx.h">
+      <Filter>obse</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h" />
+    <ClInclude Include="SME_Prefix.h">
+      <Filter>Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="EMC2INISettings.h">
+      <Filter>Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="IniData.h">
+      <Filter>Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="INIManager.h">
+      <Filter>Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="OblivionINI.h">
+      <Filter>Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="EMCthread.h">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeThread.h">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadRequest.h">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Playlist.h">
+      <Filter>UserData</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivePlaylist.h">
+      <Filter>UserData</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiplier.h">
+      <Filter>UserData</Filter>
+    </ClInclude>
+    <ClInclude Include="PendingPlaylist.h">
+      <Filter>UserData</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicInstance.h">
+      <Filter>MusicPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicPlayer.h">
+      <Filter>MusicPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicState.h">
+      <Filter>MusicPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicTimes.h">
+      <Filter>MusicPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicType.h">
+      <Filter>MusicPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="OBSEInterfaces.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStruct.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="VanillaPlaylistData.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGameVarsPointer.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGameVarsStruct.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePath.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayMusicFile.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMode.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManagement.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeWrite\SafeWrite.h">
+      <Filter>SafeWrite</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\obse\obse\GameRTTI_1_1.inl">
+      <Filter>obse</Filter>
+    </None>
+    <None Include="..\obse\obse\GameRTTI_1_2.inl">
+      <Filter>obse</Filter>
+    </None>
+    <None Include="..\obse\obse\GameRTTI_1_2_416.inl">
+      <Filter>obse</Filter>
+    </None>
+    <None Include="exports.def" />
+  </ItemGroup>
+</Project>
